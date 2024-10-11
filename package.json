@@ -1,0 +1,21 @@
+{
+  "name": "noodle",
+  "description": "Rethinking Student Productivity",
+  "version": "0.0.1",
+  "private": true,
+  "license": "AGPL-3.0-or-later",
+  "author": "Noodle RUN LTD <contact@noodle.run>",
+  "repository": "https://github.com/noodle-run/noodle",
+  "homepage": "https://noodle.run",
+  "bugs": "https://github.com/noodle-run/noodle/issues",
+  "type": "module",
+  "workspaces": [
+    "apps/*",
+    "packages/*",
+    "tooling/*"
+  ],
+  "devDependencies": {
+    "@types/bun": "^1.1.11",
+    "typescript": "^5.6.3"
+  }
+}
