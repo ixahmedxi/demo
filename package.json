@@ -9,13 +9,19 @@
   "homepage": "https://noodle.run",
   "bugs": "https://github.com/noodle-run/noodle/issues",
   "type": "module",
-  "workspaces": [
-    "apps/*",
-    "packages/*",
-    "tooling/*"
-  ],
+  "workspaces": ["apps/*", "packages/*", "tooling/*"],
+  "scripts": {
+    "spellcheck": "cspell \"**\" --gitignore --dot --no-progress --cache --unique",
+    "lint:md": "markdownlint \"**/*.md\" --dot --ignore node_modules --ignore .changeset",
+    "check": "biome check .",
+    "check:fix": "biome check --write ."
+  },
   "devDependencies": {
+    "@biomejs/biome": "^1.9.3",
     "@types/bun": "^1.1.11",
+    "cspell": "^8.15.1",
+    "markdownlint": "^0.35.0",
+    "markdownlint-cli": "^0.42.0",
     "typescript": "^5.6.3"
   }
 }
