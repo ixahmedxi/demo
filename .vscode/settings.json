@@ -2,7 +2,6 @@
   // Editor
   "editor.tabSize": 2,
   "editor.formatOnSave": true,
-  "editor.defaultFormatter": "biomejs.biome",
 
   // Tailwind
   "files.associations": {

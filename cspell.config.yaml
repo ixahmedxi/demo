@@ -5,5 +5,4 @@ ignorePaths:
   - .gitignore
   - bun.lockb
 words:
-  - biomejs
   - lockb

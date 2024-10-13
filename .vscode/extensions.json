@@ -1,6 +1,5 @@
 {
   "recommendations": [
-    "biomejs.biome",
     "aaron-bond.better-comments",
     "streetsidesoftware.code-spell-checker",
     "mikestead.dotenv",
