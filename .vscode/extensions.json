@@ -1,5 +1,6 @@
 {
   "recommendations": [
+    "esbenp.prettier-vscode",
     "aaron-bond.better-comments",
     "streetsidesoftware.code-spell-checker",
     "mikestead.dotenv",

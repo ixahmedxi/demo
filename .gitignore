@@ -131,3 +131,6 @@ dist
 
 # cspell cache
 .cspellcache
+
+# misc
+.todo
