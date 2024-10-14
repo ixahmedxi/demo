@@ -1,0 +1,10 @@
+{
+  "extends": ["@noodle/tsconfig/react.json", "@noodle/tsconfig/build.json"],
+  "include": ["src/**/*", "../utils/**/*"],
+  "references": [
+    {
+      "path": "../utils"
+    }
+  ],
+  "exclude": ["dist", "../utils/dist"]
+}

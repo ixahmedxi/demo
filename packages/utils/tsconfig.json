@@ -1,0 +1,5 @@
+{
+  "extends": ["@noodle/tsconfig/base.json", "@noodle/tsconfig/build.json"],
+  "references": [],
+  "exclude": ["dist"]
+}

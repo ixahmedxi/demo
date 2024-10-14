@@ -134,3 +134,4 @@ dist
 
 # misc
 .todo
+out-types/

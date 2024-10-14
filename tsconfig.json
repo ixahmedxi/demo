@@ -1,0 +1,12 @@
+{
+  "extends": "@noodle/tsconfig/base.json",
+  "files": [],
+  "references": [
+    {
+      "path": "packages/ui"
+    },
+    {
+      "path": "packages/utils"
+    }
+  ]
+}

@@ -21,6 +21,7 @@
     "spellcheck": "cspell \"**\" --gitignore --dot --no-progress --cache --unique"
   },
   "devDependencies": {
+    "@noodle/tsconfig": "workspace:^",
     "@ianvs/prettier-plugin-sort-imports": "^4.3.1",
     "@types/bun": "^1.1.11",
     "cspell": "^8.15.1",

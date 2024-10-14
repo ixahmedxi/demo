@@ -1,0 +1,22 @@
+{
+  "name": "@noodle/utils",
+  "description": "Utility functions for Noodle",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "license": "AGPL-3.0-or-later",
+  "author": "Noodle RUN LTD <contact@noodle.run>",
+  "homepage": "https://noodle.run",
+  "bugs": "https://github.com/noodle-run/noodle/issues",
+  "repository": "https://github.com/noodle-run/noodle",
+  "exports": {
+    "./package.json": "./package.json",
+    "./hello": {
+      "types": "./dist/hello.d.ts",
+      "default": "./dist/hello.js"
+    }
+  },
+  "devDependencies": {
+    "@noodle/tsconfig": "workspace:*"
+  }
+}
