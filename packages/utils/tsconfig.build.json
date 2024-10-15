@@ -1,0 +1,11 @@
+{
+  "extends": ["@noodle/tsconfig/base.json"],
+  "compilerOptions": {
+    "rootDir": "src",
+    "outDir": "./dist",
+    "noEmit": false,
+    "tsBuildInfoFile": "tsconfig.build.tsbuildinfo"
+  },
+  "include": ["src/**/*"],
+  "references": []
+}

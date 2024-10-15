@@ -11,8 +11,6 @@
   "type": "module",
   "files": [
     "./base.json",
-    "./react.json",
-    "./build.json",
-    "./dom.json"
+    "./react.json"
   ]
 }
