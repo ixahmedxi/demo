@@ -1,16 +1,20 @@
 {
   "name": "@noodle/api",
-  "description": "tRPC API for Noodle",
   "version": "0.0.1",
   "private": true,
-  "type": "module",
-  "license": "AGPL-3.0-or-later",
-  "author": "Noodle RUN LTD <contact@noodle.run>",
+  "description": "tRPC API for Noodle",
   "homepage": "https://noodle.run",
   "bugs": "https://github.com/noodle-run/noodle/issues",
   "repository": "https://github.com/noodle-run/noodle",
+  "license": "AGPL-3.0-or-later",
+  "author": "Noodle RUN LTD <contact@noodle.run>",
+  "type": "module",
   "exports": {
-    "./package.json": "./package.json"
+    "./package.json": "./package.json",
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
   },
   "dependencies": {
     "@noodle/utils": "workspace:*",

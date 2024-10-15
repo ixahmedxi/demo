@@ -9,5 +9,6 @@ words:
   - lockb
   - packagejson
   - superjson
+  - tanstack
   - TRPC
   - tsbuildinfo

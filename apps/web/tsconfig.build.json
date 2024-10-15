@@ -1,0 +1,22 @@
+{
+  "extends": ["@noodle/tsconfig/react.json"],
+  "compilerOptions": {
+    "rootDir": "src",
+    "outDir": "./dist",
+    "noEmit": false,
+    "tsBuildInfoFile": "tsconfig.build.tsbuildinfo"
+  },
+  "references": [
+    {
+      "path": "../../packages/api"
+    },
+    {
+      "path": "../../packages/utils"
+    }
+  ],
+  "include": [
+    "src/**/*",
+    "../../packages/api/src/**/*",
+    "../../packages/utils/src/**/*"
+  ]
+}

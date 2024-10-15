@@ -1,0 +1,25 @@
+{
+  "extends": ["@noodle/tsconfig/react.json"],
+  "compilerOptions": {
+    "outDir": "./dist",
+    "noEmit": false,
+    "emitDeclarationOnly": true
+  },
+  "references": [
+    {
+      "path": "./tsconfig.build.json"
+    },
+    {
+      "path": "../../packages/api"
+    },
+    {
+      "path": "../../packages/utils"
+    }
+  ],
+  "include": [
+    "vite.config.ts",
+    "src/**/*",
+    "../../packages/api/src/**/*",
+    "../../packages/utils/src/**/*"
+  ]
+}
