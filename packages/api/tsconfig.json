@@ -1,5 +1,5 @@
 {
-  "extends": ["@noodle/tsconfig/react.json"],
+  "extends": ["@noodle/tsconfig/base.json"],
   "compilerOptions": {
     "outDir": "./dist",
     "noEmit": false,
@@ -7,8 +7,11 @@
   },
   "references": [
     {
+      "path": "./tsconfig.build.json"
+    },
+    {
       "path": "../utils"
     }
   ],
-  "include": ["src/**/*", "../utils/src/**/*"],
+  "include": ["src/**/*", "../utils/src/**/*"]
 }

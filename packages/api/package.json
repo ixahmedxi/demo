@@ -1,5 +1,6 @@
 {
-  "name": "@noodle/ui",
+  "name": "@noodle/api",
+  "description": "tRPC API for Noodle",
   "version": "0.0.1",
   "private": true,
   "type": "module",
@@ -9,20 +10,15 @@
   "bugs": "https://github.com/noodle-run/noodle/issues",
   "repository": "https://github.com/noodle-run/noodle",
   "exports": {
-    "./package.json": "./package.json",
-    ".": {
-      "types": "./dist/index.d.ts",
-      "default": "./dist/index.js"
-    }
+    "./package.json": "./package.json"
   },
   "dependencies": {
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "@noodle/utils": "workspace:*",
+    "@trpc/server": "^11.0.0-rc.571",
+    "superjson": "^2.2.1",
+    "zod": "^3.23.8"
   },
   "devDependencies": {
-    "@noodle/utils": "workspace:*",
-    "@noodle/tsconfig": "workspace:*",
-    "@types/react": "^18.3.11",
-    "@types/react-dom": "^18.3.1"
+    "@noodle/tsconfig": "workspace:*"
   }
 }

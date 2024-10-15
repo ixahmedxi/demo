@@ -1,6 +1,7 @@
 {
   "extends": ["@noodle/tsconfig/base.json"],
   "compilerOptions": {
+    "lib": ["dom", "dom.iterable", "esnext"],
     "outDir": "./dist",
     "noEmit": false,
     "emitDeclarationOnly": true

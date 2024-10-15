@@ -1,12 +1,15 @@
 {
   "extends": ["@noodle/tsconfig/base.json"],
   "compilerOptions": {
-    "lib": ["dom", "dom.iterable", "esnext"],
     "rootDir": "src",
     "outDir": "./dist",
     "noEmit": false,
     "tsBuildInfoFile": "tsconfig.build.tsbuildinfo"
   },
-  "include": ["src/**/*"],
-  "references": []
+  "references": [
+    {
+      "path": "../utils"
+    }
+  ],
+  "include": ["src/**/*", "../utils/src/**/*"],
 }

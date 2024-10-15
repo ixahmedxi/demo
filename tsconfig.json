@@ -3,7 +3,7 @@
   "files": [],
   "references": [
     {
-      "path": "packages/ui"
+      "path": "packages/api"
     },
     {
       "path": "packages/utils"

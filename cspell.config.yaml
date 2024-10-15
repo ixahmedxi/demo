@@ -8,4 +8,6 @@ words:
   - ianvs
   - lockb
   - packagejson
+  - superjson
+  - TRPC
   - tsbuildinfo

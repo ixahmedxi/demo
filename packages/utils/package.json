@@ -11,9 +11,9 @@
   "repository": "https://github.com/noodle-run/noodle",
   "exports": {
     "./package.json": "./package.json",
-    "./hello": {
-      "types": "./dist/hello.d.ts",
-      "default": "./dist/hello.js"
+    "./base-url": {
+      "types": "./dist/base-url.d.ts",
+      "default": "./dist/base-url.js"
     }
   },
   "devDependencies": {
