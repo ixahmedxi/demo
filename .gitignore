@@ -135,3 +135,4 @@ dist
 # misc
 .todo
 out-types/
+packages/api/src/routers

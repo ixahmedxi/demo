@@ -16,6 +16,9 @@
       "default": "./dist/index.js"
     }
   },
+  "scripts": {
+    "postinstall": "tsx scripts/codegen"
+  },
   "dependencies": {
     "@noodle/utils": "workspace:*",
     "@trpc/server": "^11.0.0-rc.571",
@@ -23,6 +26,7 @@
     "zod": "^3.23.8"
   },
   "devDependencies": {
-    "@noodle/tsconfig": "workspace:*"
+    "@noodle/tsconfig": "workspace:*",
+    "tsx": "^4.19.1"
   }
 }

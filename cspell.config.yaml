@@ -5,6 +5,7 @@ ignorePaths:
   - .gitignore
   - bun.lockb
 words:
+  - codegen
   - ianvs
   - lockb
   - packagejson
