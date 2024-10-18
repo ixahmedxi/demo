@@ -4,12 +4,12 @@
     "rootDir": "src",
     "outDir": "./dist",
     "noEmit": false,
-    "tsBuildInfoFile": "tsconfig.build.tsbuildinfo"
+    "tsBuildInfoFile": "dist/tsconfig.build.tsbuildinfo"
   },
   "references": [
     {
       "path": "../utils"
     }
   ],
-  "include": ["src/**/*", "../utils/src/**/*"],
+  "include": ["src/**/*", "../utils/src/**/*"]
 }

@@ -4,7 +4,7 @@
     "rootDir": "src",
     "outDir": "./dist",
     "noEmit": false,
-    "tsBuildInfoFile": "tsconfig.build.tsbuildinfo"
+    "tsBuildInfoFile": "dist/tsconfig.build.tsbuildinfo"
   },
   "references": [
     {
