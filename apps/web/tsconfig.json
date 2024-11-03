@@ -1,5 +1,5 @@
 {
-  "extends": ["@noodle/tsconfig/react.json"],
+  "extends": ["@org/tsconfig/react.json"],
   "compilerOptions": {
     "outDir": "./dist",
     "noEmit": false,

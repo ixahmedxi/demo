@@ -1,14 +1,14 @@
 {
-  "name": "@noodle/utils",
-  "description": "Utility functions for Noodle",
+  "name": "@org/utils",
   "version": "0.0.1",
   "private": true,
-  "type": "module",
+  "description": "Utility functions for org",
+  "homepage": "https://org.run",
+  "bugs": "https://github.com/org-run/org/issues",
+  "repository": "https://github.com/org-run/org",
   "license": "AGPL-3.0-or-later",
-  "author": "Noodle RUN LTD <contact@noodle.run>",
-  "homepage": "https://noodle.run",
-  "bugs": "https://github.com/noodle-run/noodle/issues",
-  "repository": "https://github.com/noodle-run/noodle",
+  "author": "org RUN LTD <contact@org.run>",
+  "type": "module",
   "exports": {
     "./package.json": "./package.json",
     "./base-url": {
@@ -17,6 +17,6 @@
     }
   },
   "devDependencies": {
-    "@noodle/tsconfig": "workspace:*"
+    "@org/tsconfig": "workspace:*"
   }
 }

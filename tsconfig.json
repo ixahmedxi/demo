@@ -1,5 +1,5 @@
 {
-  "extends": "@noodle/tsconfig/base.json",
+  "extends": "@org/tsconfig/base.json",
   "files": [],
   "references": [
     {

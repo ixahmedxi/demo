@@ -1,13 +1,13 @@
 {
-  "name": "@noodle/api",
+  "name": "@org/api",
   "version": "0.0.1",
   "private": true,
-  "description": "tRPC API for Noodle",
-  "homepage": "https://noodle.run",
-  "bugs": "https://github.com/noodle-run/noodle/issues",
-  "repository": "https://github.com/noodle-run/noodle",
+  "description": "tRPC API for org",
+  "homepage": "https://org.run",
+  "bugs": "https://github.com/org-run/org/issues",
+  "repository": "https://github.com/org-run/org",
   "license": "AGPL-3.0-or-later",
-  "author": "Noodle RUN LTD <contact@noodle.run>",
+  "author": "org RUN LTD <contact@org.run>",
   "type": "module",
   "exports": {
     "./package.json": "./package.json",
@@ -20,13 +20,13 @@
     "postinstall": "tsx scripts/codegen"
   },
   "dependencies": {
-    "@noodle/utils": "workspace:*",
+    "@org/utils": "workspace:*",
     "@trpc/server": "^11.0.0-rc.571",
     "superjson": "^2.2.1",
     "zod": "^3.23.8"
   },
   "devDependencies": {
-    "@noodle/tsconfig": "workspace:*",
+    "@org/tsconfig": "workspace:*",
     "tsx": "^4.19.1"
   }
 }

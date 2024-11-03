@@ -1,5 +1,5 @@
 {
-  "extends": ["@noodle/tsconfig/base.json"],
+  "extends": ["@org/tsconfig/base.json"],
   "compilerOptions": {
     "lib": ["dom", "dom.iterable", "esnext"],
     "outDir": "./dist",

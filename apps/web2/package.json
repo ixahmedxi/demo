@@ -1,13 +1,13 @@
 {
-  "name": "@noodle/web2",
+  "name": "@org/web2",
   "version": "0.0.1",
   "private": true,
-  "description": "The web2 app for Noodle",
-  "homepage": "https://noodle.run",
-  "bugs": "https://github.com/noodle-run/noodle/issues",
-  "repository": "https://github.com/noodle-run/noodle",
+  "description": "The web2 app for org",
+  "homepage": "https://org.run",
+  "bugs": "https://github.com/org-run/org/issues",
+  "repository": "https://github.com/org-run/org",
   "license": "AGPL-3.0-or-later",
-  "author": "Noodle <contact@noodle.run>",
+  "author": "org <contact@org.run>",
   "type": "module",
   "scripts": {
     "build": "tsc -b && vite build",
@@ -16,8 +16,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@noodle/api": "workspace:*",
-    "@noodle/utils": "workspace:*",
+    "@org/api": "workspace:*",
+    "@org/utils": "workspace:*",
     "@tanstack/react-query": "^5.59.13",
     "@trpc/client": "^11.0.0-rc.571",
     "@trpc/react-query": "^11.0.0-rc.571",
@@ -26,7 +26,7 @@
     "superjson": "^2.2.1"
   },
   "devDependencies": {
-    "@noodle/tsconfig": "workspace:*",
+    "@org/tsconfig": "workspace:*",
     "@types/react": "^18.3.10",
     "@types/react-dom": "^18.3.0",
     "@vitejs/plugin-react-swc": "^3.5.0",

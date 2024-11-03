@@ -2,13 +2,12 @@
 
 import { useState } from 'react'
 
+import { type AppRouter } from '@org/api'
+import { getBaseUrl } from '@org/utils/base-url'
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
 import { httpBatchLink } from '@trpc/client'
 import { createTRPCReact } from '@trpc/react-query'
 import superjson from 'superjson'
-
-import { type AppRouter } from '@noodle/api'
-import { getBaseUrl } from '@noodle/utils/base-url'
 
 export const trpc = createTRPCReact<AppRouter>()
 
