@@ -6,21 +6,5 @@
     "emitDeclarationOnly": true,
     "tsBuildInfoFile": "dist/tsconfig.tsbuildinfo"
   },
-  "references": [
-    {
-      "path": "./tsconfig.build.json"
-    },
-    {
-      "path": "../../packages/api"
-    },
-    {
-      "path": "../../packages/utils"
-    }
-  ],
-  "include": [
-    "vite.config.ts",
-    "src/**/*",
-    "../../packages/api/src/**/*",
-    "../../packages/utils/src/**/*"
-  ]
+  "include": ["vite.config.ts", "src/**/*"]
 }
