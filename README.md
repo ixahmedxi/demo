@@ -1,8 +1,18 @@
 # TypeScript Monorepo Demo
 
-> This is a demo of two different ways of setting up a TypeScript monorepo.
+> This is a demo of four different ways of setting up a TypeScript monorepo.
 
-The monorepo is setup using TypeScript project references, however the `web2` app escapes out of this setup by
+Demos available:
+
+- `main`: TypeScript project references and built package (web vs web2)
+- `project-references`: Only project references
+- `built-packages`: Only built packages
+- `internal-packages`: Exporting typescript source code in package.json, no build step
+- `path-aliases`: Using path aliases from the root `tsconfig.json` file.
+
+Winner based on LSP speed (no surprises): `built-packages`
+
+On the `main` branch, the monorepo is setup using TypeScript project references, however the `web2` app escapes out of this setup by
 not referencing the `api` package to simulate the built packages way of doing things.
 
 The `api` package is a trpc api that has 100 routers, with each router having a child router to simulate a typescript lsp heavy codebase.
