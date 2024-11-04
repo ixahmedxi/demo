@@ -6,9 +6,6 @@
       "path": "apps/web"
     },
     {
-      "path": "apps/web2"
-    },
-    {
       "path": "packages/api"
     },
     {
