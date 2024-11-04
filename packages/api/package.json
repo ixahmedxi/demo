@@ -17,6 +17,8 @@
     }
   },
   "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "dev": "tsc -p tsconfig.json --watch",
     "postinstall": "tsx scripts/codegen"
   },
   "dependencies": {

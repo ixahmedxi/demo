@@ -6,10 +6,5 @@
     "noEmit": false,
     "tsBuildInfoFile": "dist/tsconfig.build.tsbuildinfo"
   },
-  "references": [
-    {
-      "path": "../utils"
-    }
-  ],
-  "include": ["src/**/*", "../utils/src/**/*"]
+  "include": ["src/**/*"]
 }
