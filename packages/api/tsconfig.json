@@ -1,18 +1,10 @@
 {
-  "extends": ["@org/tsconfig/base.json"],
+  "extends": ["../../tsconfig.json"],
   "compilerOptions": {
     "outDir": "./dist",
     "noEmit": false,
     "emitDeclarationOnly": true,
     "tsBuildInfoFile": "dist/tsconfig.tsbuildinfo"
   },
-  "references": [
-    {
-      "path": "./tsconfig.build.json"
-    },
-    {
-      "path": "../utils"
-    }
-  ],
-  "include": ["src/**/*", "../utils/src/**/*"]
+  "include": ["src/**/*"]
 }

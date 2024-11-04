@@ -45,7 +45,6 @@
     "paths": {
       "@/*": ["${configDir}/src/*"]
     },
-    "composite": true,
     "noEmitOnError": true
   }
 }

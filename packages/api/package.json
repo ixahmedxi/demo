@@ -9,13 +9,6 @@
   "license": "AGPL-3.0-or-later",
   "author": "org RUN LTD <contact@org.run>",
   "type": "module",
-  "exports": {
-    "./package.json": "./package.json",
-    ".": {
-      "types": "./dist/index.d.ts",
-      "default": "./dist/index.js"
-    }
-  },
   "scripts": {
     "postinstall": "tsx scripts/codegen"
   },

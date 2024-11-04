@@ -1,15 +1,11 @@
 {
   "extends": "@org/tsconfig/base.json",
-  "files": [],
-  "references": [
-    {
-      "path": "apps/web"
-    },
-    {
-      "path": "packages/api"
-    },
-    {
-      "path": "packages/utils"
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@org/api": ["./packages/api/src/index.ts"],
+      "@org/api/*": ["./packages/api/src/*"],
+      "@org/utils/*": ["./packages/utils/src/*"]
     }
-  ]
+  }
 }

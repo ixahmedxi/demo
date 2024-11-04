@@ -1,5 +1,5 @@
 {
-  "extends": ["@org/tsconfig/base.json"],
+  "extends": ["../../tsconfig.json"],
   "compilerOptions": {
     "lib": ["dom", "dom.iterable", "esnext"],
     "outDir": "./dist",
@@ -7,10 +7,5 @@
     "emitDeclarationOnly": true,
     "tsBuildInfoFile": "dist/tsconfig.tsbuildinfo"
   },
-  "references": [
-    {
-      "path": "./tsconfig.build.json"
-    }
-  ],
   "include": ["src/**/*"]
 }
